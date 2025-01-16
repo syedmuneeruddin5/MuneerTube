@@ -1,0 +1,38 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 56px;
+    width: 74px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 5px;
+    z-index: 200;
+    background-color: white;
+}
+
+.sidebar-buttons{
+    height: 74px;
+    border-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sidebar-buttons:hover{
+    background-color: rgb(235, 233, 233);
+}
+
+.sidebar-buttons img{
+    width: 24px;
+}
+
+.sidebar-buttons p{
+    font-size: 10px;
+}

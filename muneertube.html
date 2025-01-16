@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MuneerTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <button class="hamburger-menu-button">
+          <img class="hamburger-menu-icon" src="Icons/hamburger-menu.svg" alt="Menu" />
+        </button>
+        <img
+          class="muneertube-logo"
+          src="Icons/muneertube-full-logo.png"
+          alt="Muneertube Logo"
+        />
+      </div>
+      <div class="center-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-icon-button">
+          <img
+            class="search-icon"
+            src="Icons/search-icon.svg"
+            alt="Search Icon"
+          />
+          <div class="tool-tip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="Icons/voice-search-icon.svg"
+            alt="Voice Search"
+          />
+          <div class="tool-tip">Search with Your Voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <button class="upload-button">
+          <img class="upload-icon" src="Icons/upload.svg" alt="Video Upload" />
+          <div class="tool-tip">Create</div>
+        </button>
+        <button class="muneertube-apps-button">
+          <img
+            class="muneertube-apps-icon"
+            src="Icons/muneertube-apps.svg"
+            alt="MuneerTube Apps"
+          />
+          <div class="tool-tip">MuneerTube Apps</div>
+        </button>
+        <button class="notifications-button">
+          <img
+            class="notifications-icon"
+            src="Icons/notifications.svg"
+            alt="Notifications"
+          />
+          <div class="notifications-count">3</div>
+          <div class="tool-tip">Notifications</div>
+        </button>
+        <button class="account-button">
+          <img
+            class="account-icon"
+            src="Images/Profile Pictures/Account Profile Picture.jpg"
+            alt="Account Profile Pic"
+          />
+        </button>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <button class="sidebar-buttons">
+        <img src="Icons/home-icon.svg" alt="Home Icon" />
+        <p>Home</p>
+      </button>
+
+      <button class="sidebar-buttons">
+        <img src="Icons/explore-icon.svg" alt="Explore Icon" />
+        <p>Explore</p>
+      </button>
+
+      <button class="sidebar-buttons">
+        <img src="Icons/subscriptions-icon.svg" alt="Subscriptions Icon" />
+        <p>Subscriptions</p>
+      </button>
+
+      <button class="sidebar-buttons">
+        <img src="Icons/library-icon.svg" alt="Library Icon" />
+        <p>Library</p>
+      </button>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 2.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">12:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 1.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">
+                Into the Wild: A Day with Arctic Foxes
+              </p>
+              <p class="channel-name">Nature Nomads</p>
+              <p class="stats">3.2M views &middot; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 2.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">18:32</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 2.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">
+                Hidden Gems of the Pacific Northwest
+              </p>
+              <p class="channel-name">Scenic Ventures</p>
+              <p class="stats">725K views &middot; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 3.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">21:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 3.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">
+                The Call of the Jungle: Exploring Amazonian Wildlife
+              </p>
+              <p class="channel-name">Wild Horizon</p>
+              <p class="stats">4.8M views &middot; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 4.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">16:28</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 4.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">Sunset Over the Serengeti: A Safari Adventure</p>
+              <p class="channel-name">Trailblazer Tales</p>
+              <p class="stats">1.6M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 5.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">14:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 5.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">Hiking the Swiss Alps</p>
+              <p class="channel-name">Wander Peaks</p>
+              <p class="stats">2.1M views &middot; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 6.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">11:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 6.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">Secrets of the Sea: Snorkeling with Turtles in Hawaii</p>
+              <p class="channel-name">Ocean Odyssey</p>
+              <p class="stats">950K views &middot; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 1.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">10:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 1.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">
+                Night in the Wilderness: Camping Under the Stars
+              </p>
+              <p class="channel-name">Wild Heart Chronicles</p>
+              <p class="stats">640K views &middot; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 2.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">22:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 2.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">
+                Frozen Wilderness: Surviving the Arctic Circle
+              </p>
+              <p class="channel-name">Frosted Horizons</p>
+              <p class="stats">5.4M views &middot; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 3.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">13:35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 3.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">
+                A Walk Through Japan’s Maple Forests
+              </p>
+              <p class="channel-name">Tranquil Trails</p>
+              <p class="stats">1.2M views &middot; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 4.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">19:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 4.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">Under the Northern Lights: Exploring Iceland’s Glaciers</p>
+              <p class="channel-name">Aurora Adventures</p>
+              <p class="stats">3.9M views &middot; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 5.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">15:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 5.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">Rainforest Rhythms: Discovering Costa Rica’s Hidden Wildlife</p>
+              <p class="channel-name">Eco Escapades</p>
+              <p class="stats">785K views &middot; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail-image"
+              src="Images/Thumbnail/Photo 6.jpg"
+              alt="Thumbnail"
+            />
+            <div class="video-time">17:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-box">
+              <img
+                class="profile-picture"
+                src="Images/Profile Pictures/Profile Picture 6.jpg"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="video-info">
+              <p class="title">The Beauty of California’s Coastal Trails</p>
+              <p class="channel-name">Seaside Wanderer</p>
+              <p class="stats">1.7M views views &middot; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
